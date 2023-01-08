@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <a
-          href="https://www.linkedin.com/in/yash-kumar-48310819b/"
+          href="#"
           target="_blank"
         >
 
@@ -32,7 +32,7 @@ const Navbar = () => {
         )}
       </ul>
       <a
-        href="https://drive.google.com/file/d/1mOZam92pN4upSw8KwDIvCn8gzv00iYIT/view?usp=sharing"
+        href="https://drive.google.com/file/d/1PQCjxKen1FGlBDN5K1vfWKmwtIUDDuc8/view?usp=sharing"
         target="_blank"
         class="resume-btn "
       >

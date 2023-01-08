@@ -38,7 +38,7 @@ const About = () => {
             time when I start some project.
           </p>
           <a
-            href="https://drive.google.com/file/d/1mOZam92pN4upSw8KwDIvCn8gzv00iYIT/view?usp=sharing"
+            href="https://drive.google.com/file/d/1PQCjxKen1FGlBDN5K1vfWKmwtIUDDuc8/view?usp=sharing"
             target="_blank"
             class="resume"
           >
