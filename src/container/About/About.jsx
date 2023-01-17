@@ -37,13 +37,6 @@ const About = () => {
             allows me to be familiar with cutting-edge technologies and save
             time when I start some project.
           </p>
-          <a
-            href="https://drive.google.com/file/d/1PQCjxKen1FGlBDN5K1vfWKmwtIUDDuc8/view?usp=sharing"
-            target="_blank"
-            class="resume"
-          >
-            Download Resume
-          </a>
         </div>
         <div className="image__container ">
           <img src={images.yash} alt="/" />

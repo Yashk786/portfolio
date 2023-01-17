@@ -22,6 +22,7 @@
 
 .info__container {
   grid-column: span 2 / span 1;
+  
 }
 
 .about__text {
@@ -33,11 +34,12 @@
 }
 
 .info__container > h2 {
-  padding: 16px 0px;
+  padding: 3rem 16px 16px;
 }
 
 .info__container > p {
-  padding: 8px 0px;
+  font-family: var(--font-base);
+  padding: 8px 16px;
   color: var(--black-color);
   font-size: 1rem;
 }
@@ -45,7 +47,7 @@
 .image__container {
   width: 100%;
   height: auto;
-  margin-top: 1rem;
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;

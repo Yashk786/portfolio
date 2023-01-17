@@ -11,13 +11,13 @@
 .app__footer-cards {
   width: 60%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 4em 2rem 2rem;
+  margin: 2rem 2rem 1rem;
 
   .app__footer-card {
-    min-width: 290px;
+    min-width: 320px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -107,20 +107,27 @@
     padding: 1rem 2rem;
     border-radius: 10px;
     border: none;
-    background-color: var(--secondary-color);
-
     font-weight: 500;
     color: var(--white-color);
     outline: none;
     margin: 2rem 0 0 0;
     font-family: var(--font-base);
-
+    text-align: center;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 
+    background-image: linear-gradient(
+      to right,
+      #4776e6 0%,
+      #8e54e9 51%,
+      #4776e6 100%
+    );
     &:hover {
-      background-color: #2430af;
-      
+      background-position: right center; /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
     }
   }
 
@@ -143,7 +150,13 @@
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    color: var(--secondary-color);
+    background: -webkit-linear-gradient(
+      121.57deg,
+      rgb(203, 105, 193) 18.77%,
+      rgb(108, 114, 203) 60.15%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     opacity: 1;
   }
   &::before {
@@ -151,7 +164,11 @@
     height: 2px;
     content: "";
     position: absolute;
-    background-color: var(--secondary-color);
+    background: -webkit-linear-gradient(
+      121.57deg,
+      rgb(203, 105, 193) 18.77%,
+      rgb(108, 114, 203) 60.15%
+    );
     width: 0%;
     bottom: 0px;
   }

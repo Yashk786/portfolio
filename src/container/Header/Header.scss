@@ -263,7 +263,9 @@
   padding: 0.8rem 1rem;
   border-radius: 10px;
   border: none;
-  background-color: var(--secondary-color);
+  text-align: center;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
   width: 14rem;
   text-decoration: none;
   font-weight: 500;
@@ -271,13 +273,19 @@
   outline: none;
   margin: 2rem 0 0 0;
   font-family: var(--font-base);
-
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 
+  background-image: linear-gradient(
+    to right,
+    #4776e6 0%,
+    #8e54e9 51%,
+    #4776e6 100%
+  );
   &:hover {
-    background-color: #2430af;
-    transform: scale(1.01);
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
   }
 
   @media screen and (max-width: 450px) {

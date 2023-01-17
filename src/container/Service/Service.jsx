@@ -75,6 +75,6 @@ const Service = () => {
 
 export default AppWrap(
   MotionWrap(Service, "app__about"),
-  "features",
+  "services",
   "app__whitebg"
 );
