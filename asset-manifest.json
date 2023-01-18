@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2f19c1d1.css",
-    "main.js": "/portfolio/static/js/main.10dcda04.js",
+    "main.css": "/portfolio/static/css/main.a2da8fef.css",
+    "main.js": "/portfolio/static/js/main.514d5be7.js",
     "static/media/yash.jpg": "/portfolio/static/media/yash.56326d28b2069be91a68.jpg",
-    "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/portfolio/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/mytravel.png": "/portfolio/static/media/mytravel.6d71682cadc7e4a1870c.png",
     "static/media/crossDevelopment.png": "/portfolio/static/media/crossDevelopment.1e4678fe9c92492ff4cb.png",
+    "static/media/yash.pdf": "/portfolio/static/media/yash.8ef1779d5376443f1425.pdf",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.7eed7c2568c54fa02716.png",
     "static/media/budgety.png": "/portfolio/static/media/budgety.c2a67286c5694486547c.png",
     "static/media/foodOrder.png": "/portfolio/static/media/foodOrder.ee0025fd184644ef97a1.png",
@@ -28,11 +28,11 @@
     "static/media/git.png": "/portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.2f19c1d1.css.map": "/portfolio/static/css/main.2f19c1d1.css.map",
-    "main.10dcda04.js.map": "/portfolio/static/js/main.10dcda04.js.map"
+    "main.a2da8fef.css.map": "/portfolio/static/css/main.a2da8fef.css.map",
+    "main.514d5be7.js.map": "/portfolio/static/js/main.514d5be7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f19c1d1.css",
-    "static/js/main.10dcda04.js"
+    "static/css/main.a2da8fef.css",
+    "static/js/main.514d5be7.js"
   ]
 }
