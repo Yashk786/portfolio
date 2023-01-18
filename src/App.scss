@@ -1,14 +1,20 @@
 .app {
-  background-color: var(--primary-color);
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
   font-family: var(--font-base);
 }
 
 .app__whitebg {
-  background-color: var(--white-color);
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 
 .app__primarybg {
-  background-color: var(--primary-color);
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 
 .app__container {
@@ -37,11 +43,13 @@
   align-items: center;
 }
 
+
+
 .app__wrapper {
   flex: 1;
   width: 100%;
   flex-direction: column;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem 4rem 2rem;
 
   @media screen and (max-width: 450px) {
     padding: 4rem 1rem 2rem;
@@ -59,7 +67,7 @@
 
   p {
     text-transform: uppercase;
-    color: var(--black-color);
+    color: var(--white-color);
   }
 }
 
@@ -67,11 +75,11 @@
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
-  color: var(--black-color);
+  color: var(--white-color);
   text-transform: capitalize;
 
   span {
-    color: var(--secondary-color);
+    color: var(--white-color);
   }
 
   @media screen and (min-width: 2000px) {
@@ -86,7 +94,7 @@
 .p-text {
   font-size: 0.8rem;
   text-align: left;
-  color: var(--gray-color);
+  color: #1a202c;;
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
@@ -97,7 +105,7 @@
 .bold-text {
   font-size: 1rem;
   font-weight: 800;
-  color: var(--black-color);
+  color: #1a202c;
   text-align: left;
 
   @media screen and (min-width: 2000px) {
@@ -121,9 +129,10 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--white-color);
+    background-color: transparent;
+
     margin: 0.25rem 0;
-    border: 1px solid var(--lightGray-color);
+    border: 1px solid var(--white-color);
 
     display: flex;
     justify-content: center;
@@ -134,15 +143,15 @@
     svg {
       width: 15px;
       height: 15px;
-      color: var(--gray-color);
+      color: var(--white-color);
     }
 
     &:hover {
-      background-color: var(--secondary-color);
-      border-color: var(--secondary-color);
+      background-color: var(--white-color);
+      border-color: var(--white-color);
 
       svg {
-        color: var(--white-color);
+        color: var(--black-color);
       }
     }
 

@@ -1,6 +1,13 @@
 #home {
   position: relative;
-  background: url("../../assets/bgIMG.png");
+  /* background: url("../../assets/bgIMG.png"); */
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fc5c7d,
+    #6a82fb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -74,11 +81,7 @@
   width: max-content;
   max-width: 100%;
   margin-bottom: 16px;
-  background: -webkit-linear-gradient(
-    121.57deg,
-    rgb(203, 105, 193) 18.77%,
-    rgb(108, 114, 203) 60.15%
-  );
+  background: var(--white-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -103,8 +106,7 @@
 .span {
   line-height: 1.5rem;
   font-size: 22px;
-  color: #1a202c;
-  color: rgba(0, 0, 0, 0.48);
+  color: var(--white-color);
   margin-top: 20px;
   margin-bottom: 5px;
 
@@ -144,7 +146,7 @@
 
   span {
     font-size: 2.5rem;
-
+    color: var(--white-color);
     @media screen and (min-width: 2000px) {
       font-size: 5rem;
     }
@@ -262,10 +264,10 @@
   justify-content: center;
   padding: 0.8rem 1rem;
   border-radius: 10px;
-  border: none;
+  border: 0.5px solid white;
   text-align: center;
   background-size: 200% auto;
-  box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 10px;
   width: 14rem;
   text-decoration: none;
   font-weight: 500;
@@ -276,16 +278,20 @@
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     #4776e6 0%,
     #8e54e9 51%,
     #4776e6 100%
   );
   &:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;  change the direction of the change here 
     color: #fff;
     text-decoration: none;
+  } */
+
+  &:hover {
+    transform: scale(1.01);
   }
 
   @media screen and (max-width: 450px) {

@@ -12,18 +12,17 @@
   margin-top: 2rem;
 }
 
-
 .app__profile-item {
-  width: 190px;
+  width: 210px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 
   flex-direction: column;
   margin: 2rem;
- /*  background-color: #edf2f8;
-  padding: 0rem 1rem 1rem 1rem;
-  border-radius: 20px; */
+   background: transparent ;
+  padding: 0.5rem 1rem 1rem 1rem;
+  border-radius: 20px; 
 
   img {
     width: 100%;
@@ -41,3 +40,6 @@
     }
   }
 }
+
+
+

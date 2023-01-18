@@ -14,6 +14,7 @@
   margin: auto;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 32px;
+  padding: 0rem 2rem;
 
   @media (min-width: 768px) {
     display: grid;
@@ -35,12 +36,13 @@
 
 .info__container > h2 {
   padding: 3rem 16px 16px;
+  color: #1a202c;
 }
 
 .info__container > p {
   font-family: var(--font-base);
   padding: 8px 16px;
-  color: var(--black-color);
+  color: #1a202c;
   font-size: 1rem;
 }
 

@@ -14,11 +14,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <a
-          href="#"
-          target="_blank"
-        >
-
+        <a href="#" target="_blank">
           <h1 className="name__logo">Yash</h1>
         </a>
       </div>
