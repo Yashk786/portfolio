@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
+import Pdf from "./yash.pdf";
 
 import "./Navbar.scss";
 
@@ -27,11 +28,7 @@ const Navbar = () => {
           )
         )}
       </ul>
-      <a
-        href="https://drive.google.com/file/d/1PQCjxKen1FGlBDN5K1vfWKmwtIUDDuc8/view?usp=sharing"
-        target="_blank"
-        class="resume-btn "
-      >
+      <a href={Pdf} target="_blank" class="resume-btn ">
         Download Resume
       </a>
 
