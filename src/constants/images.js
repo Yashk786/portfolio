@@ -15,15 +15,12 @@ import bootstrap from "../assets/bootstrap.png";
 import firebase from "../assets/firebase.png";
 import github from "../assets/github.png";
 
-
-
 import web from "../assets/web.png";
 import frontEnd from "../assets/frontEnd.png";
 import crossDevelopment from "../assets/crossDevelopment.png";
 import maintenance from "../assets/maintenance.png";
 
 import circle from "../assets/circle.svg";
-import logo from "../assets/logo.png";
 
 import linkedin from "../assets/linkedin.png";
 import foodOrder from "../assets/foodOrder.png";
@@ -47,7 +44,6 @@ export default {
   redux,
   sass,
   circle,
-  logo,
   tailwind,
   next,
   bootstrap,

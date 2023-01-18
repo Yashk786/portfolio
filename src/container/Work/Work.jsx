@@ -56,9 +56,7 @@ const works = [
 const Work = () => {
   return (
     <>
-      <h2 className="head-text">
-        Port<span>folio</span>
-      </h2>
+      <h2 className="head-text">Portfolio</h2>
 
       <motion.div
         transition={{ duration: 0.5, delayChildren: 0.5 }}

@@ -5,7 +5,6 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Header.scss";
 import Background from "./Background";
 
-
 const Header = () => (
   <motion.div className="app__header header__flex ">
     <div className="header__container">

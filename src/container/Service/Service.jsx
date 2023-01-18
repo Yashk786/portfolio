@@ -7,12 +7,6 @@ import { images } from "../../constants";
 
 const services = [
   {
-    title: "Cross browser development",
-    description:
-      "Developed websites that are compatible with different browsers and devices.",
-    imgUrl: images.crossDevelopment,
-  },
-  {
     title: "Web Development",
     description:
       "Develop an interactive website based on your design and create a modern user interface.",
@@ -21,8 +15,14 @@ const services = [
   {
     title: "Frontend Architecture ",
     description:
-      "Use different tools and processes that improve the quality of code while creating a more efficient and sustainable workflow..",
+      "Refactoring and restructuring the code base to adapt it to new requirements and technologies. ",
     imgUrl: images.frontEnd,
+  },
+  {
+    title: "Cross browser development",
+    description:
+      "Developed websites that are compatible with different browsers and devices.",
+    imgUrl: images.crossDevelopment,
   },
   {
     title: "App maintenance and data migration",
@@ -35,8 +35,7 @@ const services = [
 const Service = () => {
   return (
     <>
-      <h2 className="head-text">
-       What I<span> Do</span>      </h2>
+      <h2 className="head-text">What I Do </h2>
 
       <div className="app__profiles">
         {services.map((service, index) => (

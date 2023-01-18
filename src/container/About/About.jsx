@@ -8,9 +8,7 @@ const About = () => {
     <div>
       <div className="container ">
         <div className="info__container ">
-          <h1 className="head-text ">
-            Abo<span>ut</span>
-          </h1>
+          <h1 className="head-text ">About</h1>
           <h2>Who I Am</h2>
           <p>
             My name is Yash. I am a Front-End Developer with experience
@@ -29,14 +27,11 @@ const About = () => {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
-
-          <p>
-            Spending time working, improving, reading interesting front-end
-            articles or watching new videos of popular teachers is something I
-            enjoy a lot, as it is something I use for many hours daily. It
-            allows me to be familiar with cutting-edge technologies and save
-            time when I start some project.
-          </p>
+          <div>
+            <a className="btn__link" href="#contact">
+              Lets Talk
+            </a>
+          </div>
         </div>
         <div className="image__container ">
           <img src={images.yash} alt="/" />

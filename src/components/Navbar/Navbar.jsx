@@ -56,6 +56,11 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
+              <li>
+                <a href={Pdf} target="_blank">
+                  Download Resume
+                </a>
+              </li>
               <li className="media">
                 <a
                   href="https://www.linkedin.com/in/yash-kumar-48310819b/ "

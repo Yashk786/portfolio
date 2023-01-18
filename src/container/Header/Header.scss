@@ -1,6 +1,6 @@
 #home {
   position: relative;
-  /* background: url("../../assets/bgIMG.png"); */
+
   background: #fc5c7d; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -277,18 +277,6 @@
   font-family: var(--font-base);
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-
-  /* background-image: linear-gradient(
-    to right,
-    #4776e6 0%,
-    #8e54e9 51%,
-    #4776e6 100%
-  );
-  &:hover {
-    background-position: right center;  change the direction of the change here 
-    color: #fff;
-    text-decoration: none;
-  } */
 
   &:hover {
     transform: scale(1.01);

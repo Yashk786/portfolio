@@ -57,13 +57,13 @@ const skills = [
   {
     name: "Github",
     icon: images.github,
-  }
+  },
 ];
 
 const Skills = () => {
   return (
     <>
-      <h2 className="head-text">Tech<span>nologies</span></h2>
+      <h2 className="head-text">Technologies</h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
